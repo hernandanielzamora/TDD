@@ -22,6 +22,20 @@ RSpec.describe Solver do
 	end
 	
 	describe '#fizzbuz' do
-		it ''
+		it 'returns fizz if divisible by 3' do
+			expect(solver.fizzbuzz(3)).to eq('fizz')
+		end
+
+		it 'returns buzz if divisible by 5' do
+			expect(solver.fizzbuzz(5)).to eq('buzz')
+		end
+
+		it 'returns fizzbuzz if divisible by 3 and 5' do
+			expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
+		end
+
+		it 'returns input integer as string if divisible by neither 3 nor 5' do
+			expect(solver.fizzbuzz(8)).to eq('8')
+		end
 	end	
 end
