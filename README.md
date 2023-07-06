@@ -62,12 +62,31 @@ Clone this repository to your desired folder:
 
 `git clone https://github.com/hernandanielzamora/TDD.git`
 
+### Install
+Install this project with:
+```
+  bundle install
+```
+
 ### Usage
 
 In order to use the project and it's tests, the user will need to run the following comand:
 
 -ruby solver.rb
 
+### Run Tests
+To run tests, run the following command:
+```
+bundle exec rspec
+```
+or
+
+```
+rspec spec
+```
+### Deployment
+You can deploy this project using:
+Heroku
 
 ## 👥 Author <a name="authors"></a>
 
