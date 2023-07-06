@@ -12,7 +12,7 @@ RSpec.describe Solver do
       expect(solver.factorial(8)).to eq(40_320)
       expect(solver.factorial(4)).to eq(24)
     end
-    
+
     it 'raises an exception when the inputed number is negative' do
       expect { solver.factorial(-5) }.to raise_error(ArgumentError, 'Input must be a non-negative integer')
     end
